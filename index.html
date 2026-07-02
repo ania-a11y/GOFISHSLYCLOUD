@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>RD Web Access</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Segoe UI,Arial;
+    background:#7da1bf;
+    background:linear-gradient(#86abc9,#5e88ad);
+}
+
+.container{
+    width:980px;
+    margin:50px auto;
+    background:#fff;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+.header{
+    height:150px;
+    background:linear-gradient(#dfeaf4,#ffffff);
+    border-bottom:4px solid #ff8b1a;
+}
+
+.logo{
+    padding:35px;
+    font-size:46px;
+}
+
+.logo small{
+    display:block;
+    font-size:18px;
+    color:#555;
+}
+
+.content{
+    padding:60px;
+}
+
+table{
+    margin:auto;
+}
+
+td{
+    padding:8px;
+    font-size:24px;
+}
+
+input{
+    width:320px;
+    height:32px;
+    border:2px solid #555;
+    background:#eef5fd;
+    font-size:18px;
+    padding-left:8px;
+}
+
+.buttons{
+    text-align:center;
+    margin-top:30px;
+}
+
+button{
+    font-size:18px;
+    padding:5px 18px;
+}
+
+.footer{
+    background:linear-gradient(#d9ebfb,#8cb2d9);
+    height:60px;
+    line-height:60px;
+    padding:0 25px;
+    display:flex;
+    justify-content:space-between;
+    font-size:18px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<div class="logo">
+工作資源
+<small>RemoteApp 和桌面連線</small>
+</div>
+</div>
+
+<div class="content">
+
+<form>
+
+<table>
+
+<tr>
+<td align="right">網域\\使用者名稱:</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td align="right">目前密碼:</td>
+<td><input type="password"></td>
+</tr>
+
+<tr>
+<td align="right">新密碼:</td>
+<td><input type="password"></td>
+</tr>
+
+<tr>
+<td align="right">確認新密碼:</td>
+<td><input type="password"></td>
+</tr>
+
+</table>
+
+<div class="buttons">
+<button type="submit">提交</button>
+<button type="reset">取消</button>
+</div>
+
+</form>
+
+</div>
+
+<div class="footer">
+<div>Windows Server® 2019</div>
+<div><b>Microsoft</b></div>
+</div>
+
+</div>
+
+</body>
+</html>
